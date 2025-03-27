@@ -1,4 +1,6 @@
 ﻿
+using System.Diagnostics.Contracts;
+
 class SayaTubeUser {
     private int id;
     private List<SayaTubeVideo> UploadedVideos;
@@ -17,6 +19,9 @@ class SayaTubeUser {
     public void AddVideo(string title)
     {
         SayaTubeVideo video = new SayaTubeVideo( title);
+        Contract.Requires(title.Length <= 200, "Jumlah karakter harus kurang dari 200");
+        Contract.Requires(title != null);
+
         this.UploadedVideos.Add(video);
     }
     public void PrintAllVideoPlayCounts()
@@ -44,7 +49,24 @@ class SayaTubeVideo
     }
     public void increasePlayCount()
     {
-        this.playCount++;
+        Contract.Requires(this.playCount <= 25000000, "Penambahan playcount tidak boleh lebih dari 25.000.000!");
+        Contract.Requires(this.playCount >= 0, "Play tidak boleh negatif");
+        try
+        {
+            if (this.playCount == int.MaxValue)
+            {
+                throw new Exception("PlayCount melebihi batas integer");
+            }
+            checked
+            {
+                this.playCount++;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+
+        }
     }
     public void PrintVideoDetails()
     {
@@ -58,6 +80,9 @@ class main {
     public static void Main(String[] args)
     {
         SayaTubeUser user = new SayaTubeUser( "fadhli");
+        Contract.Requires(user.Username.Length < 100, "Ussername tidak boleh lebih dari 100 karakter!");
+        Contract.Requires(user.Username != null, "Ussername tidak boleh kosong!");
+
         user.AddVideo("review film interstellar oleh Fadhli Muhammad Dzaki");
         user.AddVideo("review film Narcos oleh Fadhli Muhammad Dzaki");
         user.AddVideo("review film Better Call Saul oleh Fadhli Muhammad Dzaki");
@@ -73,6 +98,8 @@ class main {
         Console.WriteLine();
         Console.WriteLine("=====================================");
         SayaTubeVideo video1 = new SayaTubeVideo("review film interstellar oleh Fadhli Muhammad Dzaki");
+        Contract.Requires(video1 != null, "Video tidak boleh kosong");
+        Contract.Requires(video1.playCount < int.MaxValue, "PlayCount harus kurang dari bilangan maximum integer");
         video1.increasePlayCount();
         video1.PrintVideoDetails();
     }
