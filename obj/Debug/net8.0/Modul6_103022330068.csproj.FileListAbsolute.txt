@@ -1,0 +1,15 @@
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\bin\Debug\net8.0\Modul6_103022330068.exe
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\bin\Debug\net8.0\Modul6_103022330068.deps.json
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\bin\Debug\net8.0\Modul6_103022330068.runtimeconfig.json
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\bin\Debug\net8.0\Modul6_103022330068.dll
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\bin\Debug\net8.0\Modul6_103022330068.pdb
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.GeneratedMSBuildEditorConfig.editorconfig
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.AssemblyInfoInputs.cache
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.AssemblyInfo.cs
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.csproj.CoreCompileInputs.cache
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.sourcelink.json
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.dll
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\refint\Modul6_103022330068.dll
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.pdb
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\Modul6_103022330068.genruntimeconfig.cache
+D:\coolyeah\TUGAS COOLYEAH\Semester 4\Praktikum Konstruksi Perangkat Lunak\MOD_6\Modul6_103022330068\obj\Debug\net8.0\ref\Modul6_103022330068.dll
